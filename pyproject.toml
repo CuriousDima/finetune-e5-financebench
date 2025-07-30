@@ -1,0 +1,16 @@
+[project]
+name = "financebench"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=4.0.0",
+    "jupyterlab>=4.4.5",
+    "llama-index>=0.12.52",
+    "llama-index-embeddings-huggingface>=0.5.5",
+    "llama-index-embeddings-ollama>=0.6.0",
+    "llama-index-finetuning>=0.3.2",
+    "llama-index-llms-ollama>=0.6.2",
+    "llama-index-readers-file>=0.4.11",
+]
